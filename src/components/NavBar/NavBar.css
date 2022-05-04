@@ -1,0 +1,44 @@
+.nav-bar {
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+  color: salmon;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 5px 28px ; */
+}
+
+.nav-bar p {
+  font-weight: 700;
+  font-size: 2rem;
+
+}
+
+.nav-left {
+  margin-left: 28px;
+}
+
+.nav-right {
+  margin-right: 28px;
+}
+
+.nav-button {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid salmon ;
+  color: salmon;
+  padding: 13px 20px;
+  border-radius: 300px;
+  background-color: white;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  transition: ease-in .2s;
+}
+
+.nav-button:hover {
+  background-color: salmon;
+  color: white;
+}
