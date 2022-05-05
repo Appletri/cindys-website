@@ -4,7 +4,8 @@ import Intro from './components/Intro/Intro';
 import ParallaxImage from './components/ParallaxImage/ParallaxImage';
 import FeaturedWorks from './components/FeaturedWorks/FeaturedWorks';
 
-function App(props) {
+
+function App() {
   return (
     <div className="App">
       <header className="App-header">

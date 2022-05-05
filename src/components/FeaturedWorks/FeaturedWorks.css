@@ -32,6 +32,19 @@
   font-size: 2rem;
   letter-spacing: .5rem;
   font-weight: 400;
+  transition: ease-out 0.6s;
+}
+
+.work p {
+  transition: ease-out 0.6s
+}
+
+.work-text-right {
+  transform: translate(30vw);
+}
+
+.work-text-left {
+  transform: translate(-30vw);
 }
 
 .work-text-left, .work-text-right {
