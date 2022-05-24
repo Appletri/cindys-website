@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom';
+
 function NavButton(props) {
   return (
-    <button className="nav-button">{props.title}</button>
+    <Link to={props.title} className="nav-button">{props.title}</Link>
   );
 }
 

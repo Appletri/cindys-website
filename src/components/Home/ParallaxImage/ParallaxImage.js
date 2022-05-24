@@ -1,4 +1,5 @@
 import './ParallaxImage.css';
+import React, { Component }  from 'react';
 import { useState, useEffect } from 'react';
 
 function ParallaxImage() {

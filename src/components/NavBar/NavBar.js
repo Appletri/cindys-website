@@ -1,15 +1,17 @@
 import './NavBar.css';
 import NavButton from './NavButton.js';
+import React, { Component }  from 'react';
+import { Link } from 'react-router-dom';
 
 function NavBar(props) {
   return (
     <div className='nav-bar'>
       <div className='nav-left'>
-        <p>{props.firstName + ' ' + props.lastName}</p>
+        <Link to='Home' className='home'>{props.firstName + ' ' + props.lastName}</Link>
       </div>
       <div className='nav-right'>
         <NavButton title="About" />
-        <NavButton title="Work" />
+        <NavButton title="Works" />
         <NavButton title="Writing" />
       </div>
     </div>

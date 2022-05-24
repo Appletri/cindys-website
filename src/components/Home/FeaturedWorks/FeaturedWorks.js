@@ -1,5 +1,6 @@
 import './FeaturedWorks.css';
 import {WorkLeft, WorkRight} from './Work.js';
+import React, { Component }  from 'react';
 
 function FeaturedWorks() {
   

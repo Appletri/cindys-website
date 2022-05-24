@@ -1,3 +1,7 @@
+:root {
+  --main-accent-color: salmon;
+}
+
 .App {
   width: 100vw;
   height: auto;

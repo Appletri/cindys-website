@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100px;
   background-color: white;
-  color: salmon;
+  color: var(--main-accent-color);
   font-size: calc(10px + 2vmin);
   display: flex;
   justify-content: space-between;
@@ -10,14 +10,19 @@
   /* padding: 5px 28px ; */
 }
 
-.nav-bar p {
+.nav-bar {
   font-weight: 700;
   font-size: 2rem;
-
+  cursor: pointer;
 }
 
 .nav-left {
   margin-left: 28px;
+  user-select: none;
+}
+.nav-left .home{
+  color: var(--main-accent-color);
+  text-decoration: none;
 }
 
 .nav-right {
@@ -28,17 +33,19 @@
   font-family: inherit;
   font-size: 1rem;
   font-weight: 500;
-  border: 2px solid salmon ;
-  color: salmon;
+  border: 2px solid var(--main-accent-color) ;
+  color: var(--main-accent-color);
   padding: 13px 20px;
   border-radius: 300px;
   background-color: white;
   margin-left: 7.5px;
   margin-right: 7.5px;
   transition: ease-in .2s;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .nav-button:hover {
-  background-color: salmon;
+  background-color: var(--main-accent-color);
   color: white;
 }
