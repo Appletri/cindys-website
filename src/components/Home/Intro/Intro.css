@@ -19,6 +19,27 @@
 }
 
 .intro-body {
-  font-family:'Courier New', Courier, monospace;
+  font-family:var(--main-font);
   line-height: 2rem;
+}
+
+@media only screen and (max-width: 565px) {
+  .intro {
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .intro-body {
+    padding-bottom: 20vh;
+  }
 }

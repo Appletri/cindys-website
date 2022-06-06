@@ -1,5 +1,6 @@
 :root {
-  --main-accent-color: salmon;
+  --main-accent-color: rgb(94, 199, 173);
+  --main-font:'Courier New', Courier, monospace;
 }
 
 .App {

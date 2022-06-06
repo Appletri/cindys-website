@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom';
 import './FeaturedWorks.css';
-import React, { Component }  from 'react';
 // import { useState, useEffect } from 'react';
 
 function WorkRight(props) {
+
   // const [offsetY, setOffsetY] = useState(0);
   // const handleScroll = () => setOffsetY(window.pageYOffset);
   
@@ -13,10 +14,12 @@ function WorkRight(props) {
   // }, []);
 
   return (
-    <div className='work'>
-      <div className='work-img-left'>
-        <img src = {props.image} alt = "" ></img>
-      </div>
+    <div className='work' data-inviewport='fade-in'>
+      <Link to={props.link}>
+        <div className='work-img-left'>
+            <img src = {props.image} alt = "" ></img>
+        </div>
+      </Link>
       <div className='work-text-right'>
         {/* <h3 style={{ transform: `translate(-${ Math.sqrt(offsetY) * 2.7}%)`}}>{props.name}</h3>
         <p style={{ transform: `translate(-${ Math.sqrt(offsetY) * 2.2}%)`}}>{props.about}</p> */}
@@ -39,7 +42,7 @@ function WorkLeft(props) {
   // }, []);
 
   return (
-    <div className='work'>
+    <div className='work' data-inviewport='fade-in'>
       <div className='work-text-left'>
         {/* <h3 style={{ transform: `translate(${ Math.sqrt(offsetY) * 2.9}%)`}}>{props.name}</h3>
         <p style={{ transform: `translate(${ Math.sqrt(offsetY) * 2.4}%)`}}>{props.about}</p> */}

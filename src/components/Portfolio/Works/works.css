@@ -1,0 +1,42 @@
+.main {
+  margin: 100px;
+}
+
+.head-image {
+  width: 100vw;
+  height: 300px;
+  background-color: var(--main-accent-color);
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+.head h1 {
+  font-size: 3rem;
+  margin-top: 0px;
+}
+
+.head h4, .roles p{
+  margin: 0px;
+}
+
+.header-under {
+  display: flex;
+  gap: 3vw;
+}
+
+.roles {
+  display: flex;
+  flex-direction: column;
+}
+
+.main p, .main li {
+  line-height: 1.7rem;
+}
+
+.quote {
+  margin: 100px 300px;
+  
+}

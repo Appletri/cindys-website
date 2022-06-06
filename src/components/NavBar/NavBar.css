@@ -7,13 +7,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
   /* padding: 5px 28px ; */
 }
 
 .nav-bar {
   font-weight: 700;
   font-size: 2rem;
-  cursor: pointer;
 }
 
 .nav-left {
@@ -48,4 +48,42 @@
 .nav-button:hover {
   background-color: var(--main-accent-color);
   color: white;
+}
+
+.nav-hamburger {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.nav-mobile {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: ease .5s;
+  transform: translateY(-100vh);
+  background-color: white;
+  gap: 40px;
+}
+
+.nav-mobile .nav-button {
+  border: none;
+  font-size: 2rem;
+}
+
+.show {
+  transform: translateY(0);
+}
+
+.nav-close {
+  position: absolute;
+  font-size: 3rem;
+  top: 15px;
+  right: 30px;
+  cursor: pointer;
 }
