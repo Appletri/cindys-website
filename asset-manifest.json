@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/cindys-website/static/css/main.08f58534.css",
-    "main.js": "/cindys-website/static/js/main.33147272.js",
-    "static/media/Minimal-Screen-Mockup-CocaCola.jpg": "/cindys-website/static/media/Minimal-Screen-Mockup-CocaCola.8f34169f7475afaf7cf1.jpg",
-    "static/media/coke-isometric.jpg": "/cindys-website/static/media/coke-isometric.85c495bfbc070c82f056.jpg",
-    "static/media/coke-mobile.png": "/cindys-website/static/media/coke-mobile.8d55284f6958d3aadb45.png",
-    "static/media/1Login Screen.png": "/cindys-website/static/media/1Login Screen.181adac94a678db53123.png",
-    "static/media/Mobile-coke.jpg": "/cindys-website/static/media/Mobile-coke.e55c97d33ee13b155c82.jpg",
-    "static/media/1LoginScreen.png": "/cindys-website/static/media/1LoginScreen.879d19d6ea2ff69596e4.png",
-    "static/media/4Event Summary - Master List.png": "/cindys-website/static/media/4Event Summary - Master List.e8d794118b1f6c04d5c3.png",
-    "static/media/3Special Sales.png": "/cindys-website/static/media/3Special Sales.d441f5c3441c0ebba4a5.png",
-    "static/media/7Event Summary -Employee View.png": "/cindys-website/static/media/7Event Summary -Employee View.b8639b39b0e1c2dc4006.png",
-    "static/media/6CONA View.png": "/cindys-website/static/media/6CONA View.cf47f26d22f5f265587e.png",
-    "static/media/5Special Sale.png": "/cindys-website/static/media/5Special Sale.0e5a2292784b39d07998.png",
-    "static/media/2Event.png": "/cindys-website/static/media/2Event.c87acc8b0ac7f5679ec9.png",
-    "static/media/8Need Help.png": "/cindys-website/static/media/8Need Help.e4076163a7f8a354090c.png",
-    "static/media/GiangUXResume.pdf": "/cindys-website/static/media/GiangUXResume.8db6508439fe2104db07.pdf",
-    "index.html": "/cindys-website/index.html",
-    "static/media/linkedin.svg": "/cindys-website/static/media/linkedin.04e419b047cee444054a1684e4997d49.svg",
-    "static/media/mail.svg": "/cindys-website/static/media/mail.be566da949352a61d9ce062582418c00.svg",
-    "main.08f58534.css.map": "/cindys-website/static/css/main.08f58534.css.map",
-    "main.33147272.js.map": "/cindys-website/static/js/main.33147272.js.map"
+    "main.css": "/cindys-website/Home/static/css/main.08f58534.css",
+    "main.js": "/cindys-website/Home/static/js/main.6ef21708.js",
+    "static/media/Minimal-Screen-Mockup-CocaCola.jpg": "/cindys-website/Home/static/media/Minimal-Screen-Mockup-CocaCola.8f34169f7475afaf7cf1.jpg",
+    "static/media/coke-isometric.jpg": "/cindys-website/Home/static/media/coke-isometric.85c495bfbc070c82f056.jpg",
+    "static/media/coke-mobile.png": "/cindys-website/Home/static/media/coke-mobile.8d55284f6958d3aadb45.png",
+    "static/media/1Login Screen.png": "/cindys-website/Home/static/media/1Login Screen.181adac94a678db53123.png",
+    "static/media/Mobile-coke.jpg": "/cindys-website/Home/static/media/Mobile-coke.e55c97d33ee13b155c82.jpg",
+    "static/media/1LoginScreen.png": "/cindys-website/Home/static/media/1LoginScreen.879d19d6ea2ff69596e4.png",
+    "static/media/4Event Summary - Master List.png": "/cindys-website/Home/static/media/4Event Summary - Master List.e8d794118b1f6c04d5c3.png",
+    "static/media/3Special Sales.png": "/cindys-website/Home/static/media/3Special Sales.d441f5c3441c0ebba4a5.png",
+    "static/media/7Event Summary -Employee View.png": "/cindys-website/Home/static/media/7Event Summary -Employee View.b8639b39b0e1c2dc4006.png",
+    "static/media/6CONA View.png": "/cindys-website/Home/static/media/6CONA View.cf47f26d22f5f265587e.png",
+    "static/media/5Special Sale.png": "/cindys-website/Home/static/media/5Special Sale.0e5a2292784b39d07998.png",
+    "static/media/2Event.png": "/cindys-website/Home/static/media/2Event.c87acc8b0ac7f5679ec9.png",
+    "static/media/8Need Help.png": "/cindys-website/Home/static/media/8Need Help.e4076163a7f8a354090c.png",
+    "static/media/GiangUXResume.pdf": "/cindys-website/Home/static/media/GiangUXResume.8db6508439fe2104db07.pdf",
+    "index.html": "/cindys-website/Home/index.html",
+    "static/media/linkedin.svg": "/cindys-website/Home/static/media/linkedin.04e419b047cee444054a1684e4997d49.svg",
+    "static/media/mail.svg": "/cindys-website/Home/static/media/mail.be566da949352a61d9ce062582418c00.svg",
+    "main.08f58534.css.map": "/cindys-website/Home/static/css/main.08f58534.css.map",
+    "main.6ef21708.js.map": "/cindys-website/Home/static/js/main.6ef21708.js.map"
   },
   "entrypoints": [
     "static/css/main.08f58534.css",
-    "static/js/main.33147272.js"
+    "static/js/main.6ef21708.js"
   ]
 }
