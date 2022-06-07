@@ -20,7 +20,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <header className="App-header">
-            <Navbar firstName="Cindy" lastName="website"/>
+            <Navbar firstName="Cindy" lastName="Giang"/>
           </header>
           <div className='content'>
             <ScrollToTop>
