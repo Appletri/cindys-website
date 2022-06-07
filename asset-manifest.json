@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cindys-website/Home/static/css/main.08f58534.css",
-    "main.js": "/cindys-website/Home/static/js/main.6ef21708.js",
+    "main.js": "/cindys-website/Home/static/js/main.8c0f80b7.js",
     "static/media/Minimal-Screen-Mockup-CocaCola.jpg": "/cindys-website/Home/static/media/Minimal-Screen-Mockup-CocaCola.8f34169f7475afaf7cf1.jpg",
     "static/media/coke-isometric.jpg": "/cindys-website/Home/static/media/coke-isometric.85c495bfbc070c82f056.jpg",
     "static/media/coke-mobile.png": "/cindys-website/Home/static/media/coke-mobile.8d55284f6958d3aadb45.png",
@@ -20,10 +20,10 @@
     "static/media/linkedin.svg": "/cindys-website/Home/static/media/linkedin.04e419b047cee444054a1684e4997d49.svg",
     "static/media/mail.svg": "/cindys-website/Home/static/media/mail.be566da949352a61d9ce062582418c00.svg",
     "main.08f58534.css.map": "/cindys-website/Home/static/css/main.08f58534.css.map",
-    "main.6ef21708.js.map": "/cindys-website/Home/static/js/main.6ef21708.js.map"
+    "main.8c0f80b7.js.map": "/cindys-website/Home/static/js/main.8c0f80b7.js.map"
   },
   "entrypoints": [
     "static/css/main.08f58534.css",
-    "static/js/main.6ef21708.js"
+    "static/js/main.8c0f80b7.js"
   ]
 }
