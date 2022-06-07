@@ -7,6 +7,30 @@
   margin-bottom: 50px;
 }
 
+.resume {
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid white ;
+  color: white;
+  padding: 13px 20px;
+  border-radius: 300px;
+  background-color: var(--main-accent-color);
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  transition: ease-in .2s;
+  cursor: pointer;
+  text-decoration: none;
+  width: 60px;
+  text-align: center;
+}
+
+.resume:hover {
+  background-color: white;
+  color: var(--main-accent-color);
+  border:2px solid var(--main-accent-color);
+}
+
 @media only screen and (max-width: 565px) {
   .about {
     padding: 20px;

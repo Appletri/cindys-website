@@ -14,8 +14,8 @@ function FeaturedWorks() {
       link='swire-coca-cola'
       />
       <WorkLeft 
-      name="Design West" 
-      about="Architecture Design, Drafting" 
+      name="Furrever Family" 
+      about="Mobile App, UI/UX Design" 
       image="https://images.squarespace-cdn.com/content/v1/58c43562a5790aa56a886623/1599302022064-JUJ9CW18IIX4GAMDHLJN/image-asset.jpeg"
       />
       <WorkRight 

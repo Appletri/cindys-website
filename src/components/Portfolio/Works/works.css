@@ -4,8 +4,14 @@
 
 .head-image {
   width: 100vw;
-  height: 300px;
-  background-color: var(--main-accent-color);
+  height: auto;
+  /* background-color: var(--main-accent-color); */
+  overflow: hidden;
+}
+
+.head-image img{
+  width: 100%;
+  height: auto;
 }
 
 .head {
@@ -37,6 +43,73 @@
 }
 
 .quote {
-  margin: 100px 300px;
-  
+  margin: 100px 20vw;
+}
+.mock-image {
+  ;
+}
+
+.mock-image img{
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 1550px) {
+  .head {
+    flex-direction: column-reverse;
+  }
+
+  .roles {
+    margin-bottom: 50px;
+  }
+
+  .head-image {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+  }
+
+  .head-image img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .head-image img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 987px) {
+  .head {
+    flex-direction: column;
+  }
+
+  .head-image {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .head-image img{
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  .main{
+    margin: 20px;
+  }
+
+  .mock-image {
+    overflow-x: scroll;
+    height: 105vh;
+  }
+
+  .mock-image img{
+    height: 100vh;
+    object-fit: cover;
+  }
 }

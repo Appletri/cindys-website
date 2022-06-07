@@ -34,7 +34,7 @@ function Home() {
   return(
     <div className='home-page'>
       <Intro firstName="Cindy" lastName="Giang"/>
-      <ParallaxImage />
+      <ParallaxImage img="https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29mZmVlJTIwc2hvcHxlbnwwfHwwfHw%3D&w=1000&q=80" info='placeholder img'/>
       <FeaturedWorks />
     </div>
   )

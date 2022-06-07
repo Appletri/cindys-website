@@ -1,5 +1,9 @@
 import './works.css';
 import ImageSlider from './ImageSlider';
+import introImg from '../../../assets/MockUps/Mobile-coke.jpg';
+import mockPhone1 from '../../../assets/MockUps/coke-mobile.png';
+import isometricImg from '../../../assets/MockUps/coke-isometric.jpg';
+import ParallaxImage from '../../Home/ParallaxImage/ParallaxImage';
 
 function Swire() {
   return (
@@ -16,7 +20,9 @@ function Swire() {
               </div>
             </div>
           </div>
-          <div className='head-image'></div>
+          <div className='head-image'>
+            <img src={introImg} alt='iphone 13 mock up'/>
+          </div>
         </div>
       </div>
       <div className='timeline'>
@@ -53,7 +59,12 @@ function Swire() {
           </p>
         </section>
 
-        <ImageSlider />
+        <div className='mock-image'>
+          <img src={mockPhone1} alt='5 UI designs for coca cola mobile' />
+        </div>
+        <div className='mock-image'>
+          <img src={isometricImg} alt='isometric designs for coca cola mobile' />
+        </div>
 
           <h3>Problem</h3>
           <p>
@@ -89,21 +100,17 @@ function Swire() {
               <li>
                 <strong>Payment:</strong> MUST accept credit card payments to eliminate foot traffic to the admin’s door during pick-up
               </li>
+              <li>
+                <strong>Refund:</strong> Ability to initiate a refund for orders that didn’t get picked up
+              </li>
+              <li>
+                <strong>Report:</strong> Ability to generate order reports to send to the warehouse
+              </li>
+              <li>
+                <strong>Change Product:</strong> Inventory changes by the hour therefore, the admin needed a way to change product availability
+              </li>
             </ul>
           </div>
-
-          <h3>Design + Tech</h3>
-          <ul>
-            <li>
-              <strong>Refund:</strong> Ability to initiate a refund for orders that didn’t get picked up
-            </li>
-            <li>
-              <strong>Report:</strong> Ability to generate order reports to send to the warehouse
-            </li>
-            <li>
-              <strong>Change Product:</strong> Inventory changes by the hour therefore, the admin needed a way to change product availability
-            </li>
-          </ul>
         </section>
         <section>
           <p>
@@ -117,7 +124,7 @@ function Swire() {
           </p>
 
         </section>
-            
+        <ImageSlider />
       </div>
     </div>
   )

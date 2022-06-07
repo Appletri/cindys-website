@@ -1,6 +1,10 @@
 import './About.css';
+import resume from '../../assets/GiangUXResume.pdf'
 
 function About() {
+  function handleClick() {
+      window.open(resume,"_blank");
+  }
   return(
     <div className="about">
       <div>
@@ -29,7 +33,7 @@ function About() {
           Swire stakeholders and three other students discussing 
           potential outcomes for this project.</p>
       </div>
-
+      <div onClick={handleClick} className='resume'>Resume</div>
     </div>
   )
 }

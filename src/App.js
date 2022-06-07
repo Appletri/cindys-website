@@ -9,6 +9,7 @@ import React, { Component }  from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Portfolio from './components/Portfolio/Portfolio';
 import ScrollToTop from './components/Helper/ScrollToTop';
+import Contact from './components/Contact/Contact';
 
 
 class App extends Component {
@@ -28,6 +29,7 @@ class App extends Component {
                 <Route path='Home' element={<Home />} />
                 <Route path='About' element={<About />} />
                 <Route path='Works' element={<Portfolio />} />
+                <Route path='Contact' element={<Contact />} />
                 <Route path='Works/swire-coca-cola' element={<Swire />} />
                 <Route path='Works/zions-bank' element={<Zions />} />
                 <Route path='Home/swire-coca-cola' element={<Swire />} />
