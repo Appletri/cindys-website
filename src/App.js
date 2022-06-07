@@ -20,20 +20,20 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <header className="App-header">
-            <Navbar firstName="Cindy" lastName="Giang"/>
+            <Navbar firstName="Cindy" lastName="website"/>
           </header>
           <div className='content'>
             <ScrollToTop>
               <Routes> 
-                <Route path='/' element={<Home />} />
-                <Route path='Home' element={<Home />} />
-                <Route path='About' element={<About />} />
-                <Route path='Works' element={<Portfolio />} />
-                <Route path='Contact' element={<Contact />} />
-                <Route path='Works/swire-coca-cola' element={<Swire />} />
-                <Route path='Works/zions-bank' element={<Zions />} />
-                <Route path='Home/swire-coca-cola' element={<Swire />} />
-                <Route path='Home/zions-bank' element={<Zions />} />
+                <Route path='cindy-website' element={<Home />} />
+                <Route path='cindy-website/Home' element={<Home />} />
+                <Route path='cindy-website/About' element={<About />} />
+                <Route path='cindy-website/Works' element={<Portfolio />} />
+                <Route path='cindy-website/Contact' element={<Contact />} />
+                <Route path='cindy-website/Works/swire-coca-cola' element={<Swire />} />
+                <Route path='cindy-website/Works/zions-bank' element={<Zions />} />
+                <Route path='cindy-website/Home/swire-coca-cola' element={<Swire />} />
+                <Route path='cindy-website/Home/zions-bank' element={<Zions />} />
                 <Route
                   path="*"
                   element={
