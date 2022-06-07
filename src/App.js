@@ -25,15 +25,15 @@ class App extends Component {
           <div className='content'>
             <ScrollToTop>
               <Routes> 
-                <Route path='cindy-website' element={<Home />} />
-                <Route path='cindy-website/Home' element={<Home />} />
-                <Route path='cindy-website/About' element={<About />} />
-                <Route path='cindy-website/Works' element={<Portfolio />} />
-                <Route path='cindy-website/Contact' element={<Contact />} />
-                <Route path='cindy-website/Works/swire-coca-cola' element={<Swire />} />
-                <Route path='cindy-website/Works/zions-bank' element={<Zions />} />
-                <Route path='cindy-website/Home/swire-coca-cola' element={<Swire />} />
-                <Route path='cindy-website/Home/zions-bank' element={<Zions />} />
+                <Route path='cindys-website' element={<Home />} />
+                <Route path='cindys-website/Home' element={<Home />} />
+                <Route path='cindys-website/About' element={<About />} />
+                <Route path='cindys-website/Works' element={<Portfolio />} />
+                <Route path='cindys-website/Contact' element={<Contact />} />
+                <Route path='cindys-website/Works/swire-coca-cola' element={<Swire />} />
+                <Route path='cindys-website/Works/zions-bank' element={<Zions />} />
+                <Route path='cindys-website/Home/swire-coca-cola' element={<Swire />} />
+                <Route path='cindys-website/Home/zions-bank' element={<Zions />} />
                 <Route
                   path="*"
                   element={

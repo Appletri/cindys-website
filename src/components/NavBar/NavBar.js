@@ -19,7 +19,7 @@ function NavBar(props) {
   return (
     <div className='nav-bar'>
       <div className='nav-left'>
-        <Link to='cindy-website/Home' className='home'>{props.firstName + ' ' + props.lastName}</Link>
+        <Link to='cindys-website/Home' className='home'>{props.firstName + ' ' + props.lastName}</Link>
       </div>
 
 
