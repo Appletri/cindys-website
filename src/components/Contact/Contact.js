@@ -1,16 +1,17 @@
 import './Contact.css';
-import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 
 function Contact() {
-  const SERVICE_ID = "**************";
-  const TEMPLATE_ID = "*******";
-  const USER_ID = "****************";
+  const SERVICE_ID = "service_s4e04tk";
+  const TEMPLATE_ID = "template_p3sifdn";
+  const USER_ID = "dSiKCnmfy9o95utvU";
+  const form = useRef();
 
   const handleOnSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, USER_ID)
       .then((result) => {
         console.log(result.text);
         Swal.fire({
@@ -30,37 +31,21 @@ function Contact() {
 
   return(
     <div className='contact'>
-      <Form onSubmit={handleOnSubmit}>
-        <Form.Field
-          id='form-input-control-email'
-          control={Input}
-          label='Email'
-          name='user_email'
-          placeholder='Email...'
-          required
-          icon='mail'
-          iconPosition='left'
-        />
-        <Form.Field
-          id='form-input-contro-last-name'
-          control={Input}
-          label='Name'
-          name='user_name'
-          placeholder='Name'
-          required
-          icon='user circle'
-          iconPosition='left'
-        />
-        <Form.Field
-          id='form-textarea-control-opinion'
-          control={TextArea}
-          label='Message'
-          name='user_message'
-          placeholder='Message...'
-          required
-        />
-        <Button type='submit' color='green'>Submit</Button>
-      </Form>
+      <form ref={form} onSubmit={handleOnSubmit}>
+        <div className='field'>
+          <label>Name</label>
+          <input type="text" name="user_name" />
+        </div>
+        <div className='field'>
+          <label>Email</label>
+          <input type="email" name="user_email" />
+        </div>
+        <div className='field'>
+          <label>Message</label>
+          <textarea name="message" />
+        </div>
+        <input className='green' type="submit" value="Send" />
+      </form>
     </div>
   )
 }
