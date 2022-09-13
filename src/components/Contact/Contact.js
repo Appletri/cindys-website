@@ -1,9 +1,9 @@
 import './Contact.css';
 import Swal from 'sweetalert2';
 import emailjs from 'emailjs-com';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
-function Contact() {
+function Contact(props) {
   const SERVICE_ID = "service_s4e04tk";
   const TEMPLATE_ID = "template_p3sifdn";
   const USER_ID = "dSiKCnmfy9o95utvU";
@@ -28,6 +28,10 @@ function Contact() {
       });
     e.target.reset()
   }
+
+  useEffect(() => {
+    props.colorChange(props.color);
+  },[])
 
   return(
     <div className='contact'>

@@ -57,7 +57,7 @@ section {
 
 .panels {
   display: flex;
-  justify-content: baseline;
+  /* justify-content: baseline; */
   gap: 6px;
 }
 
@@ -68,6 +68,11 @@ section {
 .roles {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.header-under h4 {
+  padding: 4px;
 }
 
 .main p,
@@ -105,7 +110,7 @@ section {
   transition: ease-in 0.2s;
   cursor: pointer;
   text-decoration: none;
-  width: 100px;
+  width: 130px;
   text-align: center;
 }
 
@@ -169,7 +174,7 @@ section {
 
   .big-image {
     display: flex;
-    justify-content: baseline;
+    /* justify-content: baseline; */
     width: 100%;
     overflow-x: auto;
   }

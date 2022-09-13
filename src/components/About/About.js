@@ -1,10 +1,16 @@
 import './About.css';
 import resume from '../../assets/GiangUXResume.pdf'
+import { useEffect } from 'react';
 
-function About() {
+function About(props) {
   function handleClick() {
       window.open(resume,"_blank");
   }
+
+  useEffect(() => {
+    props.colorChange(props.color);
+  },[])
+
   return(
     <div className="about">
       <div>
@@ -33,7 +39,9 @@ function About() {
           Swire stakeholders and three other students discussing 
           potential outcomes for this project.</p>
       </div>
-      <div onClick={handleClick} className='resume'>Resume</div>
+      <div className='butt-contain'>
+        <div onClick={handleClick} className='resume'>Resume</div>
+      </div>
     </div>
   )
 }

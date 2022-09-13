@@ -2,9 +2,13 @@ import './Portfolio.css'
 import Work from "./Work";
 import cokeMockUP from '../../assets/images/Minimal-Screen-Mockup-CocaCola.7206a71c.webp';
 import ffMockUP from '../../assets/images/MockupFF.66f98d4d.webp';
+import { useEffect } from 'react';
 
 
-function Portfolio() {
+function Portfolio(props) {
+  useEffect(() => {
+    props.colorChange(props.color);
+  },[]);
   return (
     <div className='portfolio'>
       <Work title='Swire Coca-Cola Mobile and Web Application' year='2021' genre='Ecommerce' link='/cindys-website/swire-coca-cola'

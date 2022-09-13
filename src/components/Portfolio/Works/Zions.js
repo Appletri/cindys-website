@@ -1,6 +1,6 @@
 import './works.css';
 
-function Zions() {
+function Zions(props) {
   return(
     <div className='main'>
     <div className='overview'>

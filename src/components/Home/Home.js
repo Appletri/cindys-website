@@ -2,8 +2,12 @@ import Intro from './Intro/Intro.js';
 import ParallaxImage from './ParallaxImage/ParallaxImage.js';
 import FeaturedWorks from './FeaturedWorks/FeaturedWorks.js';
 import img from '../../assets/images/PXL_20210728_185651742_Original.f56293b6.webp';
+import { useEffect } from 'react';
 
-function Home() {
+function Home(props) {
+  useEffect(() => {
+    props.colorChange(props.color);
+  },[])
 
   //this bit of code handles the animation for featured works when entering viewport
   const inViewport = (entries, observer) => {

@@ -1,7 +1,6 @@
 import './Footer.css';
-import mail from '../../assets/mail.svg';
 import linkedin from '../../assets/linkedin.svg';
-import React, { Component }  from 'react';
+import React  from 'react';
 
 function Footer(props) {
   return(

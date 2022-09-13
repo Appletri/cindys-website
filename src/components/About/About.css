@@ -21,8 +21,16 @@
   transition: ease-in .2s;
   cursor: pointer;
   text-decoration: none;
-  width: 60px;
-  text-align: center;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butt-contain {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .resume:hover {

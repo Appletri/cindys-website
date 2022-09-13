@@ -7,12 +7,19 @@ import persona3 from '../../../assets/images/Mindy.01f545ef.webp';
 import userFlow from '../../../assets/images/UserFlow.946ce499.webp';
 import erd from '../../../assets/images/Physical ERD.6bbab31a.webp';
 import finalPDF from '../../../assets/FinalSubmissionFurreverFamily.pdf';
+import { useEffect } from 'react';
 
 
-function FF() {
+function FF(props) {
   function handleClick() {
     window.open(finalPDF,"_blank");
   }
+  
+  useEffect(() => {
+    props.colorChange('#288acd');
+
+  },[]);
+
   return (
     <div className='main'>
       <div className='overview'>

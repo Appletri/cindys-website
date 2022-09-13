@@ -5,8 +5,15 @@ import isometricImg from '../../../assets/images/coke-isometric.a4fcb228.webp';
 import WireFramingImg from '../../../assets/images/SwireMobileWireframe.3cb4dc5a.webp';
 import FigmaEmbed from '../../Helper/FigmaEmbed';
 import ImageSlider from './ImageSlider.js';
+import { useEffect } from 'react';
 
-function Swire() {
+function Swire(props) {
+  
+  useEffect(()=> {
+    props.colorChange('#cd0008');
+    
+  },[]);
+
   return (
     <div className='main'>
       <div className='overview'>
