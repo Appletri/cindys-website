@@ -1,7 +1,7 @@
 import Intro from './Intro/Intro.js';
 import ParallaxImage from './ParallaxImage/ParallaxImage.js';
 import FeaturedWorks from './FeaturedWorks/FeaturedWorks.js';
-import img from '../../assets/images/image.8785c26b.webp';
+import img from '../../assets/images/PXL_20210728_185651742_Original.f56293b6.webp';
 
 function Home() {
 

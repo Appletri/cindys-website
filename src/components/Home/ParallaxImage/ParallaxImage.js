@@ -13,7 +13,7 @@ function ParallaxImage(props) {
 
   return(
     <div className= 'wrapper'>
-      <div className='parallax' style={{ transform: `translateY(${ offsetY * 0.3}px)`}}>
+      <div className='parallax' style={{ transform: `translateY(${ offsetY * 0.3 }px)`}}>
         <img className = 'background' src={props.img} alt={props.info}/>
       </div>
     </div>

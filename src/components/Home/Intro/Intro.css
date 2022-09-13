@@ -19,7 +19,7 @@
 }
 
 .intro-body {
-  font-family:var(--main-font);
+  font-family: var(--main-font);
   line-height: 2rem;
 }
 
@@ -28,7 +28,7 @@
     margin-left: 20px;
     margin-top: 0px;
     width: 90vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
