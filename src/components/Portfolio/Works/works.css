@@ -32,6 +32,7 @@
 .header-under {
   display: flex;
   gap: 3vw;
+  width: 410px;
 }
 
 .roles {

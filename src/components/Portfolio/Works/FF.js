@@ -1,21 +1,20 @@
 import './works.css';
-import introImg from '../../../assets/images/Mobile-coke.f1268b9c.webp';
-import mockPhone1 from '../../../assets/images/coke-mobile.90ae2512.webp';
-import isometricImg from '../../../assets/images/coke-isometric.a4fcb228.webp';
+import introImg from '../../../assets/images/MockupFF.66f98d4d.webp';
+import isometricImg from '../../../assets/images/MockupFFiso.fb6b6c35.webp';
 import FigmaEmbed from '../../Helper/FigmaEmbed';
 
-function Swire() {
+function FF() {
   return (
     <div className='main'>
       <div className='overview'>
         <div className='head'>
           <div className='text'>
-            <h1>Swire Coca-Cola Mobile and Web Application</h1>
+            <h1>Furrever Family</h1>
             <div className='header-under'>
               <h4>Roles</h4>
               <div className='roles'>
                 <p>UI/UX Designer</p>
-                <p>Project Manager</p>
+                <p>System Analysis</p>
               </div>
             </div>
           </div>
@@ -31,35 +30,23 @@ function Swire() {
       <div className='work-body'>
         <section>
           <p> 
-            Swire Coca-Cola offers employee pricing for all their products every month. 
-            At the beginning of every ordering period, each employee will receive an email 
-            with an excel sheet of all the products that are available for that purchase period. 
-            Employees can easily mark the quantity for each product and the excel sheet will 
-            calculate the total cost they need to pay. The excel sheet is then sent back to the 
-            Swire admins for order processing. 
+            As a group of students, we were given the task to come up with a project that will improve a current problem we are facing but strongly believe a mobile application can help fix. As we sat on the zoom call brainstorming ideas for the project, “Housing?” “Hunger?”  “Finance?” “Sleep?” “Dating?” – none of these suggestions felt right. As we were about to call it for the night, the group went on a tangent about our pets. “Ohh you have a pet?” “What is your cat/dog’s name?” “How old are they?” “Can I see them?” but the question that turned the night around was…
           </p>
 
           <p>
-            One Swire administrator is on the other end receiving 75-200 e-mails containing 
-            the same excel sheet but with different products marked. Each excel sheet is opened 
-            and the content is moved to a master order – another excel sheet. When all orders are manually accounted for the excel sheet is then sent to the warehouse for packaging. 
+            “How did you adopt them?”
           </p>
 
           <p>
-            On order pick-up day, the same administrator is responsible for accepting payments. 
-            Employees will be knocking on the admin’s door every few minutes to drop off a check 
-            or cash. A small slip with the order will be stamped with the words “Paid”. It is the 
-            employee's responsibility to drive to the warehouse and gather all their products to 
-            take home. 
+            Each of us shared different stories about how we got our pets therefore we decided to look into different adoption programs and scenarios. 
           </p>
 
           <p>
-            This process is then repeated for next month. 
+            In 2019, an adoption study found that the top form of pet adoption is done at a shelter, totaling 44% of the completed study conducted by the American Pet Products Association. Realizing that the main form of adoption is less than half of how people give up/adopt their pet is alarming. We thought we can make this process easier by providing a platform for owners to adopt pets using their own mobile devices.  
           </p>
         </section>
 
         <div className='mock-image'>
-          <img src={mockPhone1} alt='5 UI designs for coca cola mobile' />
         </div>
         <div className='mock-image'>
           <img src={isometricImg} alt='isometric designs for coca cola mobile' />
@@ -123,17 +110,10 @@ function Swire() {
           </p>
 
         </section>
-
-        <FigmaEmbed url="https://www.figma.com/proto/CzodLex4agkfxMiVhCBIxz/CokeNowMobile?node-id=664%3A6588&scaling=scale-down&page-id=132%3A1058&starting-point-node-id=664%3A6588&show-proto-sidebar=1&fbclid=IwAR1Lzmk2YLSAHDBHWNsbEMBlli2CoP7ME4F15Xne7W55cmiWv8xYCmZ9Mn0" />
-
-        <FigmaEmbed url="https://www.figma.com/proto/tn1XhoRQOaAjxOZmDkjLbX/SwireAdminWeb?node-id=215%3A1940&scaling=scale-down&page-id=215%3A1939&starting-point-node-id=215%3A1940&show-proto-sidebar=1" />
-
-       
-
       </div>
     </div>
   )
 
 }
 
-export default Swire;
+export default FF;
