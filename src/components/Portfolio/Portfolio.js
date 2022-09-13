@@ -12,7 +12,7 @@ function Portfolio() {
       Coke, Sprite, Fanta, and the goal for this project is to design an e-commerce mobile application for Swire employees to order their products and a management website for the administration to regulate orders, products, and payments.'
       img={cokeMockUP}/>
       <Work title='Furrever Family' year='2021' genre='Adoption' link='/cindys-website/furrever-family'
-      about='An app for finding the perfect pet' img={ffMockUP}/>
+      about='An app that is designed to help owners easily rehome and adopt pets in nearby proximity. This application allows owners to interact with pets’ families on a personal level. At adoption facilities, pre and post-boarding paperwork is done with the employees at the shelter – making it harder for families to really answer all the questions needed to understand the pet before going to the new home. With this mobile application, the new owners can read about the pet and reach out to the current family to better understand the habits, health conditions, and personality of the pet before bringing them home.' img={ffMockUP}/>
       {/* <Work title='Zions Bancorporation Internal Website' year='2022' genre='Finance' link='/cindys-website/zions-bank'
       about='nothing yet'/> */}
     </div>

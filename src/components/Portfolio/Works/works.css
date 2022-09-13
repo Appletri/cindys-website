@@ -2,6 +2,11 @@
   margin: 100px;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+}
+
 .head-image {
   width: 100vw;
   height: auto;
@@ -14,9 +19,19 @@
   height: auto;
 }
 
+.text {
+  width: 530px;
+  padding-right: 30px;
+}
+
 .head {
   display: flex;
   justify-content: center;
+}
+
+.important {
+  align-self: center;
+  font-size: 1.5rem;
 }
 
 .head h1 {
@@ -32,7 +47,16 @@
 .header-under {
   display: flex;
   gap: 3vw;
-  width: 410px;
+}
+
+.panels {
+  display: flex;
+  justify-content: baseline;
+  gap: 6px;
+}
+
+.panels img {
+  width: 33%;
 }
 
 .roles {
@@ -49,7 +73,8 @@
   margin: 100px 20vw;
 }
 
-.mock-image img {
+.mock-image img,
+.big-image img {
   width: 100%;
   height: auto;
 }
@@ -101,6 +126,26 @@
   .head-image img {
     height: 100%;
     object-fit: cover;
+  }
+
+  .panels {
+    overflow-x: scroll;
+    justify-content: baseline;
+  }
+
+  .panels img {
+    min-width: 220px;
+  }
+
+  .big-image {
+    display: flex;
+    justify-content: baseline;
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .big-image img {
+    width: 1200px;
   }
 }
 
