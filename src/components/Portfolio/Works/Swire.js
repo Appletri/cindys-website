@@ -63,9 +63,6 @@ function Swire() {
         <div className='mock-image'>
           <img src={mockPhone1} alt='5 UI designs for coca cola mobile' />
         </div>
-        <div className='mock-image'>
-          <img src={isometricImg} alt='isometric designs for coca cola mobile' />
-        </div>
 
         <h3>Problem</h3>
         <p>
@@ -133,6 +130,9 @@ function Swire() {
           </p>
 
         </section>
+        <div className='mock-image'>
+          <img src={isometricImg} alt='isometric designs for coca cola mobile' />
+        </div>
 
         <FigmaEmbed url="https://www.figma.com/proto/CzodLex4agkfxMiVhCBIxz/CokeNowMobile?node-id=664%3A6588&scaling=scale-down&page-id=132%3A1058&starting-point-node-id=664%3A6588&show-proto-sidebar=1&fbclid=IwAR1Lzmk2YLSAHDBHWNsbEMBlli2CoP7ME4F15Xne7W55cmiWv8xYCmZ9Mn0" />
 
