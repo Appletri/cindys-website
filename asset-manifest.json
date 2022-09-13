@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cindys-website/static/css/main.93cf1587.css",
-    "main.js": "/cindys-website/static/js/main.3fd6d491.js",
+    "main.js": "/cindys-website/static/js/main.0dd4217a.js",
     "static/media/FinalSubmissionFurreverFamily.pdf": "/cindys-website/static/media/FinalSubmissionFurreverFamily.f49477e56af82c0db055.pdf",
     "static/media/coke-mobile.90ae2512.webp": "/cindys-website/static/media/coke-mobile.90ae2512.90ae2512645d64b6b48e.webp",
     "static/media/coke-isometric.a4fcb228.webp": "/cindys-website/static/media/coke-isometric.a4fcb228.a4fcb2281134e01b63cd.webp",
@@ -26,10 +26,10 @@
     "static/media/linkedin.svg": "/cindys-website/static/media/linkedin.04e419b047cee444054a1684e4997d49.svg",
     "static/media/mail.svg": "/cindys-website/static/media/mail.be566da949352a61d9ce062582418c00.svg",
     "main.93cf1587.css.map": "/cindys-website/static/css/main.93cf1587.css.map",
-    "main.3fd6d491.js.map": "/cindys-website/static/js/main.3fd6d491.js.map"
+    "main.0dd4217a.js.map": "/cindys-website/static/js/main.0dd4217a.js.map"
   },
   "entrypoints": [
     "static/css/main.93cf1587.css",
-    "static/js/main.3fd6d491.js"
+    "static/js/main.0dd4217a.js"
   ]
 }
