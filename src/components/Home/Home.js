@@ -1,6 +1,7 @@
 import Intro from './Intro/Intro.js';
 import ParallaxImage from './ParallaxImage/ParallaxImage.js';
 import FeaturedWorks from './FeaturedWorks/FeaturedWorks.js';
+import img from '../../assets/images/image.8785c26b.webp';
 
 function Home() {
 
@@ -34,7 +35,7 @@ function Home() {
   return(
     <div className='home-page'>
       <Intro firstName="Cindy" lastName="Giang"/>
-      <ParallaxImage img="https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y29mZmVlJTIwc2hvcHxlbnwwfHwwfHw%3D&w=1000&q=80" info='placeholder img'/>
+      <ParallaxImage img={img} info='placeholder img'/>
       <FeaturedWorks />
     </div>
   )

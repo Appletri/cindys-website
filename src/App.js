@@ -25,15 +25,13 @@ class App extends Component {
           <div className='content'>
             <ScrollToTop>
               <Routes> 
-                <Route path='cindys-website' element={<Home />} />
-                <Route path='cindys-website/Home' element={<Home />} />
+                <Route path='/' element={<Home />} />
+                <Route path='cindys-website/' element={<Home />} />
                 <Route path='cindys-website/About' element={<About />} />
                 <Route path='cindys-website/Works' element={<Portfolio />} />
                 <Route path='cindys-website/Contact' element={<Contact />} />
-                <Route path='cindys-website/Works/swire-coca-cola' element={<Swire />} />
-                <Route path='cindys-website/Works/zions-bank' element={<Zions />} />
-                <Route path='cindys-website/Home/swire-coca-cola' element={<Swire />} />
-                <Route path='cindys-website/Home/zions-bank' element={<Zions />} />
+                <Route path='cindys-website/swire-coca-cola' element={<Swire />} />
+                <Route path='cindys-website/zions-bank' element={<Zions />} />
                 <Route
                   path="*"
                   element={
@@ -42,6 +40,7 @@ class App extends Component {
                     </main>
                   }
                 />
+                <Route path='/*' element={<home />} />
               </Routes>
             </ScrollToTop>
           </div>

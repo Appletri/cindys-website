@@ -10,7 +10,7 @@ function Footer(props) {
       <p>Get in touch for opportunites or just to say hi!</p>
       <div className='contact-links'>
         {/* <img src={mail} alt='email icon' /> */}
-        <a href="https://www.linkedin.com/in/cindygiang"><img src={linkedin} alt='linkedin icon' /></a>
+        <a href="https://www.linkedin.com/in/cindygiang" target={'blank'}><img src={linkedin} alt='linkedin icon' /></a>
       </div>
     </footer>
   );

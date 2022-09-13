@@ -1,6 +1,6 @@
 import './FeaturedWorks.css';
 import {WorkLeft, WorkRight} from './Work.js';
-import cokeImg from '../../../assets/SwireCokeMobile/1LoginScreen.png'
+import cokeImg from '../../../assets/images/1LoginScreen.f5b1d0e8.webp'
 
 function FeaturedWorks() {
 

@@ -1,9 +1,8 @@
 import './works.css';
-import ImageSlider from './ImageSlider';
-import introImg from '../../../assets/MockUps/Mobile-coke.jpg';
-import mockPhone1 from '../../../assets/MockUps/coke-mobile.png';
-import isometricImg from '../../../assets/MockUps/coke-isometric.jpg';
-import ParallaxImage from '../../Home/ParallaxImage/ParallaxImage';
+import introImg from '../../../assets/images/Mobile-coke.f1268b9c.webp';
+import mockPhone1 from '../../../assets/images/coke-mobile.90ae2512.webp';
+import isometricImg from '../../../assets/images/coke-isometric.a4fcb228.webp';
+import FigmaEmbed from '../../Helper/FigmaEmbed';
 
 function Swire() {
   return (
@@ -124,7 +123,7 @@ function Swire() {
           </p>
 
         </section>
-        <ImageSlider />
+        <FigmaEmbed url="https://www.figma.com/proto/CzodLex4agkfxMiVhCBIxz/CokeNowMobile?node-id=664%3A6588&scaling=scale-down&page-id=132%3A1058&starting-point-node-id=664%3A6588&show-proto-sidebar=1&fbclid=IwAR1Lzmk2YLSAHDBHWNsbEMBlli2CoP7ME4F15Xne7W55cmiWv8xYCmZ9Mn0" />
       </div>
     </div>
   )

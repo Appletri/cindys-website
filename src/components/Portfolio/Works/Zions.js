@@ -1,5 +1,4 @@
 import './works.css';
-import ImageSlider from './ImageSlider';
 
 function Zions() {
   return(

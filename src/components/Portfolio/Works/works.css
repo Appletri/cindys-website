@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-.head-image img{
+.head-image img {
   width: 100%;
   height: auto;
 }
@@ -24,7 +24,8 @@
   margin-top: 0px;
 }
 
-.head h4, .roles p{
+.head h4,
+.roles p {
   margin: 0px;
 }
 
@@ -38,20 +39,24 @@
   flex-direction: column;
 }
 
-.main p, .main li {
+.main p,
+.main li {
   line-height: 1.7rem;
 }
 
 .quote {
   margin: 100px 20vw;
 }
-.mock-image {
-  ;
-}
 
-.mock-image img{
+.mock-image img {
   width: 100%;
   height: auto;
+}
+
+.figma-embed {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0px;
 }
 
 @media only screen and (min-width: 1550px) {
@@ -69,14 +74,14 @@
     margin-bottom: 100px;
   }
 
-  .head-image img{
+  .head-image img {
     height: 100%;
     object-fit: cover;
   }
 }
 
 @media only screen and (max-width: 1150px) {
-  .head-image img{
+  .head-image img {
     height: 100%;
     object-fit: cover;
   }
@@ -92,14 +97,14 @@
     height: 50vh;
   }
 
-  .head-image img{
+  .head-image img {
     height: 100%;
     object-fit: cover;
   }
 }
 
 @media only screen and (max-width: 565px) {
-  .main{
+  .main {
     margin: 20px;
   }
 
@@ -108,7 +113,7 @@
     height: 105vh;
   }
 
-  .mock-image img{
+  .mock-image img {
     height: 100vh;
     object-fit: cover;
   }
