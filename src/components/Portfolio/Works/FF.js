@@ -6,9 +6,13 @@ import persona2 from '../../../assets/images/Mei.7da74601.webp';
 import persona3 from '../../../assets/images/Mindy.01f545ef.webp';
 import userFlow from '../../../assets/images/UserFlow.946ce499.webp';
 import erd from '../../../assets/images/Physical ERD.6bbab31a.webp';
+import finalPDF from '../../../assets/FinalSubmissionFurreverFamily.pdf';
 
 
 function FF() {
+  function handleClick() {
+    window.open(finalPDF,"_blank");
+  }
   return (
     <div className='main'>
       <div className='overview'>
@@ -81,6 +85,9 @@ function FF() {
         <p>
           This project was my first mobile proposal project. The goal was for us to experience the different phases of building a system. During the project, I learned there are many things a UX designer needs to be aware of. For the interview, we quickly dived into user interviews and got over 100 results within a few days. Looking back, I prefer doing more research and running the user interviews in small batches to give us more time between each session to analyze the answers and refine the interview questions to better answer the questions we are really seeking to get a solution to. However, being the first project we thought it was best to get the MOST results upfront so we can get the most accurate dataset possible. 
         </p>
+        <div className='finalbutt'>
+          <div onClick={handleClick} className='final'>Final Project</div>
+        </div>
       </div>
     </div>
   )
