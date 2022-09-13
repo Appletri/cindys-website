@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cindys-website/static/css/main.aa76f55e.css",
-    "main.js": "/cindys-website/static/js/main.03b2ad9a.js",
+    "main.css": "/cindys-website/static/css/main.a37cab2f.css",
+    "main.js": "/cindys-website/static/js/main.871b7ffa.js",
     "static/media/FinalSubmissionFurreverFamily.pdf": "/cindys-website/static/media/FinalSubmissionFurreverFamily.f49477e56af82c0db055.pdf",
     "static/media/coke-mobile.90ae2512.webp": "/cindys-website/static/media/coke-mobile.90ae2512.90ae2512645d64b6b48e.webp",
     "static/media/coke-isometric.a4fcb228.webp": "/cindys-website/static/media/coke-isometric.a4fcb228.a4fcb2281134e01b63cd.webp",
@@ -24,11 +24,11 @@
     "static/media/Furrever Family Parallax.50dddca0.webp": "/cindys-website/static/media/Furrever Family Parallax.50dddca0.50dddca0bd3f173c04ae.webp",
     "index.html": "/cindys-website/index.html",
     "static/media/linkedin.svg": "/cindys-website/static/media/linkedin.04e419b047cee444054a1684e4997d49.svg",
-    "main.aa76f55e.css.map": "/cindys-website/static/css/main.aa76f55e.css.map",
-    "main.03b2ad9a.js.map": "/cindys-website/static/js/main.03b2ad9a.js.map"
+    "main.a37cab2f.css.map": "/cindys-website/static/css/main.a37cab2f.css.map",
+    "main.871b7ffa.js.map": "/cindys-website/static/js/main.871b7ffa.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa76f55e.css",
-    "static/js/main.03b2ad9a.js"
+    "static/css/main.a37cab2f.css",
+    "static/js/main.871b7ffa.js"
   ]
 }
