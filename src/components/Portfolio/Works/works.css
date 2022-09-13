@@ -24,12 +24,6 @@ section {
   padding-right: 30px;
 }
 
-.finalbutt {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
 .head {
   display: flex;
   justify-content: center;
@@ -89,30 +83,6 @@ section {
   display: flex;
   justify-content: center;
   padding: 25px 0px;
-}
-
-.final {
-  font-family: inherit;
-  font-size: 1rem;
-  font-weight: 500;
-  border: 2px solid white;
-  color: white;
-  padding: 13px 20px;
-  border-radius: 300px;
-  background-color: var(--main-accent-color);
-  margin-left: 7.5px;
-  margin-right: 7.5px;
-  transition: ease-in 0.2s;
-  cursor: pointer;
-  text-decoration: none;
-  width: 100px;
-  text-align: center;
-}
-
-.final:hover {
-  background-color: white;
-  color: var(--main-accent-color);
-  border: 2px solid var(--main-accent-color);
 }
 
 @media only screen and (min-width: 1550px) {
