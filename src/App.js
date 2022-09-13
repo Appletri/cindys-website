@@ -38,7 +38,7 @@ class App extends Component {
                   path="*"
                   element={
                     <main style={{ padding: "1rem" }}>
-                      <p>There's nothing here!</p>
+                      <p>Project is still under development.</p>
                     </main>
                   }
                 />

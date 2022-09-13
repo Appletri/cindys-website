@@ -13,8 +13,8 @@ function Portfolio() {
       img={cokeMockUP}/>
       <Work title='Furrever Family' year='2021' genre='Adoption' link='/cindys-website/furrever-family'
       about='An app for finding the perfect pet' img={ffMockUP}/>
-      <Work title='Zions Bancorporation Internal Website' year='2022' genre='Finance' link='/cindys-website/zions-bank'
-      about='nothing yet'/>
+      {/* <Work title='Zions Bancorporation Internal Website' year='2022' genre='Finance' link='/cindys-website/zions-bank'
+      about='nothing yet'/> */}
     </div>
   );
 }

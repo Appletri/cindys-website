@@ -1,6 +1,7 @@
 import './FeaturedWorks.css';
 import {WorkLeft, WorkRight} from './Work.js';
-import cokeImg from '../../../assets/images/1LoginScreen.f5b1d0e8.webp'
+import cokeImg from '../../../assets/images/1LoginScreen.f5b1d0e8.webp';
+import ffImg from '../../../assets/images/Furrever Family Parallax.50dddca0.webp'
 
 function FeaturedWorks() {
 
@@ -16,13 +17,14 @@ function FeaturedWorks() {
       <WorkLeft 
       name="Furrever Family" 
       about="Mobile App, UI/UX Design" 
-      image="https://images.squarespace-cdn.com/content/v1/58c43562a5790aa56a886623/1599302022064-JUJ9CW18IIX4GAMDHLJN/image-asset.jpeg"
+      image={ffImg}
+      link='furrever-family'
       />
       <WorkRight 
-      name="Zions Bank" 
+      name="Zions Bancorporation" 
       about="Analyze, UI/UX Designing, User Research" 
       image="https://cdn2.hubspot.net/hubfs/263750/Zions-Bank-1-1.jpg"
-      link='zions-bank'
+      link='zions-bankdd'
       />
     </div>
   );

@@ -50,9 +50,11 @@ function WorkLeft(props) {
         <p>{props.about}</p>
         <div className='arrow'></div>
       </div>
-      <div className='work-img-right'>
-        <img src = {props.image} alt = ""></img>
-      </div>
+      <Link to={props.link}>
+        <div className='work-img-right'>
+          <img src = {props.image} alt = ""></img>
+        </div> 
+      </Link>
     </div>
   );
 }

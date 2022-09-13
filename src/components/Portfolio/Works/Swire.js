@@ -2,7 +2,9 @@ import './works.css';
 import introImg from '../../../assets/images/Mobile-coke.f1268b9c.webp';
 import mockPhone1 from '../../../assets/images/coke-mobile.90ae2512.webp';
 import isometricImg from '../../../assets/images/coke-isometric.a4fcb228.webp';
+import WireFramingImg from '../../../assets/images/SwireMobileWireframe.3cb4dc5a.webp';
 import FigmaEmbed from '../../Helper/FigmaEmbed';
+import ImageSlider from './ImageSlider.js';
 
 function Swire() {
   return (
@@ -65,12 +67,20 @@ function Swire() {
           <img src={isometricImg} alt='isometric designs for coca cola mobile' />
         </div>
 
-          <h3>Problem</h3>
-          <p>
-            User research interviews were done to better understand the pain points of both the 
-            admin and employees using the current system. This helps uncover the goals and needs 
-            each user needs to make this product successful. 
-          </p>
+        <h3>Problem</h3>
+        <p>
+          User research interviews were done to better understand the pain points of both the 
+          admin and employees using the current system. This helps uncover the goals and needs 
+          each user needs to make this product successful. 
+        </p>
+
+        <h3>User Flow</h3>
+          <ImageSlider />
+        <h3>Wireframing Mobile</h3>
+        <div className='mock-image'>
+          <img src={WireFramingImg} alt='wire framing blueprints for mobile design' />
+        </div>
+
         <section>
           <h3>Analysis</h3>
           <h3>User Research Outcome</h3>
