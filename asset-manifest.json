@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/cindys-website/static/css/main.03d52b33.css",
-    "main.js": "/cindys-website/static/js/main.5adfef4c.js",
-    "static/media/image.8785c26b.webp": "/cindys-website/static/media/image.8785c26b.8785c26bc5d5492328cf.webp",
+    "main.css": "/cindys-website/static/css/main.6a0fed17.css",
+    "main.js": "/cindys-website/static/js/main.a29ce3ea.js",
     "static/media/coke-mobile.90ae2512.webp": "/cindys-website/static/media/coke-mobile.90ae2512.90ae2512645d64b6b48e.webp",
     "static/media/coke-isometric.a4fcb228.webp": "/cindys-website/static/media/coke-isometric.a4fcb228.a4fcb2281134e01b63cd.webp",
+    "static/media/PXL_20210728_185651742_Original.f56293b6.webp": "/cindys-website/static/media/PXL_20210728_185651742_Original.f56293b6.f56293b649e4112d4b9d.webp",
+    "static/media/MockupFFiso.fb6b6c35.webp": "/cindys-website/static/media/MockupFFiso.fb6b6c35.fb6b6c35f0916e5de69d.webp",
     "static/media/Minimal-Screen-Mockup-CocaCola.7206a71c.webp": "/cindys-website/static/media/Minimal-Screen-Mockup-CocaCola.7206a71c.7206a71c2adbb9693709.webp",
+    "static/media/MockupFF.66f98d4d.webp": "/cindys-website/static/media/MockupFF.66f98d4d.66f98d4d10140788aeda.webp",
+    "static/media/SwireMobileWireframe.3cb4dc5a.webp": "/cindys-website/static/media/SwireMobileWireframe.3cb4dc5a.3cb4dc5a1c31a7b08da5.webp",
     "static/media/Mobile-coke.f1268b9c.webp": "/cindys-website/static/media/Mobile-coke.f1268b9c.f1268b9c70d97dc8983c.webp",
     "static/media/1LoginScreen.f5b1d0e8.webp": "/cindys-website/static/media/1LoginScreen.f5b1d0e8.f5b1d0e8300d1c4aee54.webp",
-    "static/media/GiangUXResume.pdf": "/cindys-website/static/media/GiangUXResume.8db6508439fe2104db07.pdf",
+    "static/media/GiangUXResume.pdf": "/cindys-website/static/media/GiangUXResume.9e62e3150819697fb468.pdf",
+    "static/media/397.2e3b14a9.webp": "/cindys-website/static/media/397.2e3b14a9.2e3b14a921c0de820471.webp",
+    "static/media/393.b300cd2f.webp": "/cindys-website/static/media/393.b300cd2f.b300cd2f3d1a4beeeccb.webp",
+    "static/media/396.18aee545.webp": "/cindys-website/static/media/396.18aee545.18aee54511771763670f.webp",
+    "static/media/Furrever Family Parallax.50dddca0.webp": "/cindys-website/static/media/Furrever Family Parallax.50dddca0.50dddca0bd3f173c04ae.webp",
     "index.html": "/cindys-website/index.html",
     "static/media/linkedin.svg": "/cindys-website/static/media/linkedin.04e419b047cee444054a1684e4997d49.svg",
     "static/media/mail.svg": "/cindys-website/static/media/mail.be566da949352a61d9ce062582418c00.svg",
-    "main.03d52b33.css.map": "/cindys-website/static/css/main.03d52b33.css.map",
-    "main.5adfef4c.js.map": "/cindys-website/static/js/main.5adfef4c.js.map"
+    "main.6a0fed17.css.map": "/cindys-website/static/css/main.6a0fed17.css.map",
+    "main.a29ce3ea.js.map": "/cindys-website/static/js/main.a29ce3ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.03d52b33.css",
-    "static/js/main.5adfef4c.js"
+    "static/css/main.6a0fed17.css",
+    "static/js/main.a29ce3ea.js"
   ]
 }
