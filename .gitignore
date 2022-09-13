@@ -24,6 +24,6 @@ yarn-error.log*
 
 # images
 
-/src/assets/SwireCokeWebsite
-/src/assets/SwireCokeMobile
-/src/assets/Mockups
+dir_to_ignore/src/assets/SwireCokeWebsite
+dir_to_ignore/src/assets/SwireCokeMobile
+dir_to_ignore/src/assets/Mockups
