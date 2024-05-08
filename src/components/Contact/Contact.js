@@ -35,6 +35,7 @@ function Contact(props) {
 
   return(
     <div className='contact'>
+      <h2>Send me a message!</h2>
       <form ref={form} onSubmit={handleOnSubmit}>
         <div className='field'>
           <label>Name</label>

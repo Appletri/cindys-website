@@ -9,3 +9,7 @@
   height: auto;
   background-color: rgb(247, 247, 243);
 }
+
+.content {
+  min-height: 100vh;
+}
